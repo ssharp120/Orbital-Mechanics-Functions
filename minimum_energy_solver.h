@@ -1,0 +1,1 @@
+void minimum_energy_solver(const double* r1_ptr, const double* r2_ptr, const double* cosdTheta_ptr, const double* mu_ptr, const int n, const int dThetaPi, double* a_min_ptr, double* dt_min_ptr);

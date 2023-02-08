@@ -1,0 +1,1 @@
+void gauss_initial(const double* r2_ptr, const double* t1_ptr, const double* t2_ptr, const double* t3_ptr, const double* mu_ptr, double* a_ptr, double* c_ptr);
