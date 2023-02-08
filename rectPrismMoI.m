@@ -1,0 +1,9 @@
+function J = rectPrismMoI(mass, dimensions)
+
+J = mass / 12 .* ...
+    diag([dimensions(2)^2 + dimensions(3)^2, ...
+    dimensions(1)^2 + dimensions(3)^2, ...
+    dimensions(1)^2 + dimensions(2)^2]);
+
+end
+
